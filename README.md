@@ -32,3 +32,18 @@ and in another terminal tab run:
 ```
 npm run development
 ```
+###Configure
+1. Set up a bucket in Cosmic JS with an object type of `messages`.
+2. Edit config.js:
+```
+// config.js
+export default {
+  bucket: {
+    slug: '[your-bucket-slug]',
+    type_slug: 'messages'
+  },
+  server: {
+    host: process.env.APP_URL || 'http://localhost:3000'
+  }
+}
+```
