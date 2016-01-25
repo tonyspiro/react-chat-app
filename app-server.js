@@ -5,9 +5,11 @@ const app = express()
 app.set('port', process.env.PORT || 3000)
 // Static files
 app.use(express.static('public'))
-import config from './config'
 const http = require('http').Server(app)
 const io = require('socket.io')(http)
+
+// Config
+import config from './config'
 
 // Models
 import Message from './models/Message'
