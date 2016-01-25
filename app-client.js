@@ -123,7 +123,7 @@ class App extends Component {
     if (!data.author) {
       form_input = (
         <div>
-          Hi, what's your name?<br />
+          Hi, what is your name?<br />
           <Input type="text" ref="author" />
         </div>
       )
