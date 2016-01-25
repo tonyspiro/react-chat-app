@@ -32,7 +32,7 @@ and in another terminal tab run:
 ```
 npm run development
 ```
-###Configure
+###Configure your own chat app
 1. Set up a bucket in [Cosmic JS](https://cosmicjs.com) with an object type of `messages`.
 2. Edit config.js:
 ```javascript
