@@ -1,7 +1,7 @@
 ##React Chat App
 ![Screencast](https://github.com/tonyspiro/react-chat-app/blob/master/screencast.gif)
 
-This is a basic example of how to create a real-time chat app using React, Socket.io and Cosmic JS.  This example consists of the following:
+This is an example of a basic real time chat app using React, Socket.io and Cosmic JS.  This example consists of the following:
 
 1. [React](https://facebook.github.io/react/) for UI
 2. [Babel](https://babeljs.io/) for ES6 and JSX transformation
