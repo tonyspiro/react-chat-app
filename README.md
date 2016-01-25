@@ -24,6 +24,7 @@ Run the following command to run the app in production:
 ```
 npm start
 ```
+View the app running in production at [http://loaclhost:3000](http://loaclhost:3000)
 Run the following commands to run the app in development with hot reloading:
 ```
 npm start server
@@ -32,6 +33,7 @@ and in another terminal tab run:
 ```
 npm run development
 ```
+View the app running in development at [http://loaclhost:8080](http://loaclhost:8080)
 ###Configure your own chat app
 1. Set up a bucket in [Cosmic JS](https://cosmicjs.com) with an object type of `messages`.
 2. Edit config.js:
