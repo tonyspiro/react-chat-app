@@ -46,7 +46,7 @@ View the app running in development at [http://localhost:8080](http://localhost:
 // config.js
 export default {
   bucket: {
-    slug: '[your-bucket-slug]',
+    slug: 'your-bucket-slug',
     type_slug: 'messages'
   },
   server: {
