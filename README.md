@@ -7,7 +7,7 @@ This is a basic example of how to use React, Socket.io and Cosmic JS to create a
 4. [Socket.io](http://socket.io/) for real-time communication
 5. [Cosmic JS](https://cosmicjs.com) for saving and returning messages from a cloud-hosted API
 
-Dev Tools:
+Dev tools:
 
 1. [ESLint](http://eslint.org/) to make sure our code is consistent
 2. [React Hot Loader](https://github.com/gaearon/react-hot-loader) for instant updates on save
