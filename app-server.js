@@ -13,9 +13,9 @@ const io = require('socket.io')(http)
 import Message from './models/Message'
 
 // Listen for a connection
-io.on('connection', function(socket){
+io.on('connection', socket => {
   // Create message
-  socket.on('chat message', function(params){
+  socket.on('chat message', params => {
     Message.create(config, params, (message) => {
       io.emit('chat message', message);
     })
@@ -23,10 +23,10 @@ io.on('connection', function(socket){
 })
 
 // Route
-app.get('/', function(req, res){
+app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html')
 })
 
-http.listen(app.get('port'), function(){
+http.listen(app.get('port'), () => {
   console.log('React Chat App listening on ' + app.get('port'))
 })
