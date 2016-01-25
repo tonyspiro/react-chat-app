@@ -1,7 +1,7 @@
-###React Chat App
+##React Chat App
 This is a basic example of how to use React, Socket.io and Cosmic JS to create a real-time chat app.
 
-####Install
+###Install
 Run the following commands to install the app:
 ```
 git clone https://github.com/tonyspiro/react-chat-app
@@ -12,7 +12,7 @@ Run the following command to run the app in production:
 ```
 npm start
 ```
-####Get started
+###Get started
 Run the following commands to run the app in development with hot reloading:
 ```
 npm start server
