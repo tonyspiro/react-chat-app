@@ -25,6 +25,7 @@ Run the following command to run the app in production:
 npm start
 ```
 View the app running in production at [http://loaclhost:3000](http://loaclhost:3000)
+
 Run the following commands to run the app in development with hot reloading:
 ```
 npm start server
