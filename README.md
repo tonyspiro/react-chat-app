@@ -33,9 +33,9 @@ and in another terminal tab run:
 npm run development
 ```
 ###Configure
-1. Set up a bucket in Cosmic JS with an object type of `messages`.
+1. Set up a bucket in [Cosmic JS](https://cosmicjs.com) with an object type of `messages`.
 2. Edit config.js:
-```
+```javascript
 // config.js
 export default {
   bucket: {
