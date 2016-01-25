@@ -28,5 +28,5 @@ app.get('/', function(req, res){
 })
 
 http.listen(app.get('port'), function(){
-  console.log('Cosmic JS Chat App listening on ' + app.get('port'))
+  console.log('React Chat App listening on ' + app.get('port'))
 })
