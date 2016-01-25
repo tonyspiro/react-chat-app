@@ -3,7 +3,7 @@ import Cosmic from 'cosmicjs'
 
 export default {
   create: (config, params, callback) => {
-    var object = {
+    const object = {
       title: params.author + ': ' + params.message,
       type_slug: config.bucket.type_slug,
       metafields: [
@@ -31,15 +31,15 @@ export default {
       }
     }
     Cosmic.addObject(config, object, (err, res) => {
-      object = res.object
+      const new_object = res.object
       const message = {
-        _id: object._id,
+        _id: new_object._id,
         metafield: {
           message: {
-            value: object.metafields[0].value
+            value: new_object.metafields[0].value
           },
           author: {
-            value: object.metafields[1].value
+            value: new_object.metafields[1].value
           }
         }
       }
