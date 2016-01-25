@@ -19,15 +19,14 @@ git clone https://github.com/tonyspiro/react-chat-app
 cd react-chat-app
 npm install
 ```
-###Get started
-####Production
+####Run in production
 Run the following command to run the app in production:
 ```
 npm start
 ```
 View the app running in production at [http://loaclhost:3000](http://loaclhost:3000)
 
-####Development
+####Run in development
 Run the following commands to run the app in development with hot reloading:
 ```
 npm start server
