@@ -156,7 +156,7 @@ class App extends Component {
     return (
       <div>
         <div style={ S('pl-15') }>
-          <h2>React Cosmic JS Chat App</h2>
+          <h2>React Chat App</h2>
           <div>
             <ul style={ S('p-0') }>{ messages_list }</ul>
           </div>
