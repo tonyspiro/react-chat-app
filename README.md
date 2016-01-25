@@ -9,7 +9,7 @@ This is an example of a basic real time chat app using React, Socket.io and Cosm
 4. [Socket.io](http://socket.io/) for real-time communication
 5. [Cosmic JS](https://cosmicjs.com) for saving and returning messages from a cloud-hosted API
 
-Dev tools:
+The following dev tools are used:
 
 1. [ESLint](http://eslint.org/) to make sure our code is consistent
 2. [React Hot Loader](https://github.com/gaearon/react-hot-loader) for instant updates on save
