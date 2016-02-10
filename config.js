@@ -1,7 +1,7 @@
 // config.js
 export default {
   bucket: {
-    slug: 'cosmic-js-chat',
+    slug: process.env.COSMIC_BUCKET || 'cosmic-js-chat',
     type_slug: 'messages'
   },
   server: {
