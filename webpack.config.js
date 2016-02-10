@@ -1,4 +1,6 @@
 // webpack.config.js
+var webpack = require('webpack')
+
 var loaders = [];
 // JS loaders
 if (process.env.NODE_ENV === 'development') {
@@ -34,5 +36,10 @@ module.exports = {
   },
   module: {
     loaders: loaders
-  }
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env.COSMIC_BUCKET': JSON.stringify(process.env.COSMIC_BUCKET)
+    })
+ ]
 };
