@@ -40,7 +40,7 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'process.env.COSMIC_BUCKET': JSON.stringify(process.env.COSMIC_BUCKET),
-      'process.env.API_URL': JSON.stringify(process.env.API_URL)
+      'process.env.APP_URL': JSON.stringify(process.env.APP_URL)
     })
  ]
 };
