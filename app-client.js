@@ -25,7 +25,7 @@ class App extends Component {
     setTimeout(() => {
       this.refs.author.refs.input.focus()
     }, 100)
-    const socket = io(config.server.host)
+    const socket = io()
     Cosmic.getObjects(config, (err, res) => {
       const messages = res.objects.type.messages
       if (messages) {
@@ -76,7 +76,7 @@ class App extends Component {
   createMessage() {
     const data = this.state.data
     const messages = data.messages
-    const socket = io(config.server.host)
+    const socket = io()
     const message_text = this.refs.message.refs.input.value.trim()
     if (!message_text)
       return
