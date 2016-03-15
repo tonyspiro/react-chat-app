@@ -57,6 +57,8 @@ class App extends Component {
   componentDidUpdate() {
     if (this.refs.message)
       this.refs.message.refs.input.focus()
+    if (this.refs.messages_scroll_area)
+      this.refs.messages_scroll_area.scrollTop = this.refs.messages_scroll_area.scrollHeight
   }
 
   setAuthor() {
@@ -153,11 +155,15 @@ class App extends Component {
         }
       })
     }
+    const scroll_area_style = {
+      ...S('h-' + (window.innerHeight - 140)),
+      overflowY: 'scroll'
+    }
     return (
       <div>
         <div style={ S('pl-15') }>
           <h2>React Chat App</h2>
-          <div>
+          <div ref="messages_scroll_area" style={ scroll_area_style }>
             <ul style={ S('p-0') }>{ messages_list }</ul>
           </div>
         </div>
