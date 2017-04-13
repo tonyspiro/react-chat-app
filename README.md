@@ -1,4 +1,4 @@
-##React Chat App
+## React Chat App
 ![Screencast](https://github.com/tonyspiro/react-chat-app/blob/master/screencast.gif)
 
 This is an example of a basic real time chat app using React, Socket.io and Cosmic JS.  This example consists of the following:
@@ -14,21 +14,21 @@ The following dev tools are used:
 1. [ESLint](http://eslint.org/) to make sure our code is consistent
 2. [React Hot Loader](https://github.com/gaearon/react-hot-loader) for instant updates on save
 
-###Install
+### Install
 Run the following commands to install the app:
 ```
 git clone https://github.com/tonyspiro/react-chat-app
 cd react-chat-app
 npm install
 ```
-####Run in production
+#### Run in production
 Run the following command to run the app in production:
 ```
 npm start
 ```
 View the app running in production at [http://localhost:3000](http://localhost:3000)
 
-####Run in development
+#### Run in development
 Run the following commands to run the app in development with hot reloading:
 ```
 npm start server
@@ -39,7 +39,7 @@ npm run development
 ```
 View the app running in development at [http://localhost:8080](http://localhost:8080)
 
-###Configure your own chat app
+### Configure your own chat app
 1. Set up a bucket in [Cosmic JS](https://cosmicjs.com) with an object type of `messages`.
 2. Edit config.js:
 ```javascript
