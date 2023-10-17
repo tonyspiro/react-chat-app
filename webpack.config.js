@@ -28,7 +28,7 @@ if(process.env.NODE_ENV === 'development'){
 }
 module.exports = {
   devtool: 'source-map',
-  entry: './app-client.js',
+  entry: './Appfunction.js',
   output: {
     path: __dirname + '/public/dist',
     filename: 'bundle.js',
